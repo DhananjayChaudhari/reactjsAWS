@@ -16,7 +16,7 @@ function Home () {
   const [proprtyList,setPropertyList] = useState('');
   let propertyCompHeading ={
     "pageId":"home",
-    "mainHeading":"Find your best Property",
+    "mainHeading":"Find your best Property Here",
     "subHeading":"Esteem spirit temper too say adieus who direct esteem.",
     "imageClass":"slider_bg_1"
   };
