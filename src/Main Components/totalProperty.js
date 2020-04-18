@@ -7,6 +7,7 @@ function TotalProperties () {
     const [isTotalCount,setTotalCount] = useState('');
 
     useEffect(() => {
+        
         fetch("totalproperty.json",{
           method: "GET"})
         .then(res => res.json())
